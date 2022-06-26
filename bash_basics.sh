@@ -1,5 +1,7 @@
 #!/bin/bash 
 # Run Command - chmod u+x ./bash_basics.sh && ./bash_basics.sh
+# REF1 : https://wiki.bash-hackers.org/syntax/pe
+# REF2 : https://devhints.io/bash
 clear
 echo "Hello,$USER" | tr [:lower:] [:upper:]
 echo "Today's date is `date`, this is week `date +"%V"`."
@@ -82,7 +84,6 @@ then
     declare -a files=()
 
     fileCount=0
-
     # cat "${LOGFILE}" | while read line; 
     # do        
     #     fileCount=${#files[@]}
@@ -93,6 +94,7 @@ then
     #     #let "fileCount=fileCount+1"
     # done
    
+    fileCount=0
     while IFS= read -r line || [[ -n "$line" ]]; do
         echo "file - $line inserting"
 

@@ -11,7 +11,7 @@ echo "This is `uname -s` running on a `uname -m` processor."
 #set -e
 
 # STRING_TUT, INT_TUT, FLOAT_TUT, FOR_TUT, WHILE_TUT, FILE_TUT
-T_TYPE="STRING_"
+T_TYPE="STRING_TUT"
 
 if echo $T_TYPE| grep "_TUT"
 then

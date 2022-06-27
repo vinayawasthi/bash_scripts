@@ -1,0 +1,4 @@
+/var/log/installer/systemsetup-server-info.log
+/var/log/installer/systemsetup-server-debug.log
+/var/log/installer/systemsetup-client-info.log
+/var/log/installer/systemsetup-client-debug.log
